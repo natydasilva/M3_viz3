@@ -307,8 +307,6 @@ ggplot(data = propinas, aes(x = sexo, fill = sexo)) +
 ---
 
 
----
-
 ## [Transformaciones estadísticas]{style="color:#88398A"}
 
 -   Transforma los datos, resumiendolos de alguna manera (`stat`)
