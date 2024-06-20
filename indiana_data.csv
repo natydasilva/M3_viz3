@@ -1,0 +1,444 @@
+loan_amnt,term,int_rate,emp_length,home_ownership,annual_inc,purpose,addr_state,dti,delinq_2yrs,revol_util,total_acc,bad_loan,longest_credit_length,verification_status
+1000,36 months,9.64,0,RENT,5000,debt_consolidation,IN,18,0,26,7,good,3,not verified
+25000,36 months,9.64,2,RENT,48000,debt_consolidation,IN,9.78,0,12.7,39,good,7,not verified
+22550,36 months,15.96,4,MORTGAGE,34992,debt_consolidation,IN,20.82,1,48.9,22,good,18,not verified
+2975,36 months,9.96,0,RENT,25000,debt_consolidation,IN,14.16,0,33.7,9,good,5,not verified
+11300,36 months,12.17,8,RENT,33600,debt_consolidation,IN,23.96,0,49,15,good,8,not verified
+10000,36 months,11.22,8,MORTGAGE,30000,other,IN,20.4,0,0,9,good,9,not verified
+3000,36 months,11.86,2,MORTGAGE,36153,debt_consolidation,IN,7.47,0,70.9,6,good,7,not verified
+5100,36 months,8.38,4,RENT,32000,vacation,IN,14.78,0,23.9,22,good,12,not verified
+5300,36 months,8.38,7,MORTGAGE,74000,credit_card,IN,14.37,0,14.4,29,good,15,not verified
+12500,36 months,10.91,2,OWN,36000,debt_consolidation,IN,12.27,0,53.3,15,bad,4,not verified
+10000,36 months,10.59,0,RENT,25000,debt_consolidation,IN,10.22,0,95,17,good,7,not verified
+7200,36 months,14.38,7,MORTGAGE,53000,major_purchase,IN,15.65,0,74.7,17,bad,5,not verified
+2000,36 months,12.8,1,RENT,20000,debt_consolidation,IN,2.58,2,23.1,7,bad,5,not verified
+7500,36 months,11.22,0,RENT,20000,debt_consolidation,IN,5.46,0,50.7,10,bad,3,not verified
+7000,36 months,14.38,10,RENT,30000,debt_consolidation,IN,4.04,0,53.2,5,bad,1,not verified
+6250,36 months,17.54,0,RENT,35000,debt_consolidation,IN,19.85,0,58.7,32,bad,15,not verified
+1800,36 months,14.07,1,RENT,10192,credit_card,IN,5.06,0,97.5,4,good,2,not verified
+1000,36 months,12.49,1,RENT,32000,credit_card,IN,5.21,4,16.7,27,good,7,not verified
+2600,36 months,14.38,10,OWN,42000,other,IN,16.91,4,52.4,28,bad,15,not verified
+15000,60 months,16.99,1,MORTGAGE,83740,credit_card,IN,25.19,0,70.8,31,good,30,verified
+8000,36 months,11.99,1,MORTGAGE,103000,car,IN,14.19,1,16.4,26,good,24,verified
+8000,36 months,10.99,8,MORTGAGE,60000,debt_consolidation,IN,5.86,0,49,15,good,12,not verified
+15000,36 months,6,10,MORTGAGE,62000,credit_card,IN,20.36,0,58.1,20,good,8,not verified
+20000,36 months,13.98,10,RENT,70000,credit_card,IN,12.03,0,63.8,21,bad,16,verified
+10000,36 months,9.67,9,MORTGAGE,32760,debt_consolidation,IN,9.56,0,34.9,16,good,16,not verified
+31300,60 months,19.97,8,MORTGAGE,75000,debt_consolidation,IN,10.62,0,34.1,50,bad,19,verified
+20350,36 months,20.5,3,MORTGAGE,68000,debt_consolidation,IN,20.7,0,78.5,44,bad,13,verified
+28000,60 months,19.22,8,MORTGAGE,106000,debt_consolidation,IN,20.73,0,47.5,43,good,13,verified
+15000,36 months,14.47,5,MORTGAGE,55000,debt_consolidation,IN,25.07,0,65,30,good,18,not verified
+14675,36 months,13.98,NA,RENT,35000,debt_consolidation,IN,18.62,1,77.7,35,bad,21,verified
+12000,36 months,15.61,10,MORTGAGE,40000,debt_consolidation,IN,9.09,0,98.9,14,good,14,verified
+10000,36 months,22.9,10,MORTGAGE,63000,other,IN,24.57,0,65.4,27,good,14,not verified
+18000,36 months,13.53,10,MORTGAGE,59000,credit_card,IN,20.67,0,79.9,15,bad,14,not verified
+18725,36 months,13.53,9,RENT,48000,debt_consolidation,IN,26.9,1,57.2,43,bad,12,verified
+1200,36 months,19.22,10,MORTGAGE,135000,other,IN,24.04,1,82.1,48,good,38,not verified
+25000,36 months,7.62,10,MORTGAGE,75000,debt_consolidation,IN,19.07,0,51.3,36,good,20,verified
+8000,36 months,10.99,2,MORTGAGE,50000,home_improvement,IN,22.88,0,33.9,26,bad,18,not verified
+33000,36 months,14.47,0,MORTGAGE,120000,debt_consolidation,IN,28.62,0,39.1,63,good,22,verified
+6200,36 months,8.9,10,MORTGAGE,22000,credit_card,IN,20.19,0,34.2,16,good,13,verified
+9600,36 months,18.25,5,RENT,75000,medical,IN,9.55,0,47,11,good,16,not verified
+18825,60 months,16.99,2,RENT,43000,credit_card,IN,21.76,0,81.7,32,bad,9,verified
+11000,36 months,19.22,10,OWN,54000,debt_consolidation,IN,24.71,0,31.3,49,good,18,verified
+14125,60 months,22.4,3,MORTGAGE,78000,debt_consolidation,IN,24.28,0,75,31,good,15,verified
+10000,36 months,9.67,2,MORTGAGE,63000,credit_card,IN,14.65,0,36.6,20,good,21,not verified
+14000,36 months,6.03,10,MORTGAGE,80000,credit_card,IN,16.76,0,25.2,29,good,18,verified
+10000,36 months,13.98,3,MORTGAGE,64000,credit_card,IN,13.71,0,63.7,8,good,5,not verified
+12375,60 months,21.48,10,MORTGAGE,69871,debt_consolidation,IN,22.21,0,90.6,23,bad,19,verified
+20050,60 months,19.97,3,MORTGAGE,45000,credit_card,IN,24.72,0,53.4,31,good,11,verified
+6000,36 months,10.99,8,MORTGAGE,41000,credit_card,IN,25.06,0,10.3,22,good,8,not verified
+35000,36 months,24.08,10,MORTGAGE,108000,debt_consolidation,IN,13.43,1,56.5,26,bad,19,verified
+4600,36 months,22.9,7,MORTGAGE,50000,debt_consolidation,IN,9.41,0,59.5,12,good,4,not verified
+10000,36 months,16.24,2,MORTGAGE,105000,debt_consolidation,IN,17.31,0,33.2,29,good,8,verified
+14400,60 months,17.57,10,MORTGAGE,60000,home_improvement,IN,28.98,0,42.6,44,good,17,verified
+9000,36 months,10.99,3,MORTGAGE,71720,credit_card,IN,13.29,0,51.5,17,good,8,not verified
+7250,36 months,16.24,2,MORTGAGE,42000,debt_consolidation,IN,18.89,0,56.7,14,bad,7,not verified
+3500,36 months,16.99,2,RENT,48000,other,IN,25.78,4,45,10,bad,6,verified
+28000,60 months,17.57,9,MORTGAGE,92000,home_improvement,IN,13.38,0,58.9,38,good,19,verified
+14400,60 months,17.57,10,MORTGAGE,60000,debt_consolidation,IN,14.92,0,33.6,33,good,17,verified
+10000,36 months,14.98,5,MORTGAGE,60000,debt_consolidation,IN,16.54,0,77,20,good,6,not verified
+8300,36 months,8.9,2,OWN,45000,debt_consolidation,IN,7.32,0,14,63,good,8,verified
+13000,36 months,15.61,10,RENT,52000,debt_consolidation,IN,17.06,1,33.9,33,good,24,verified
+17325,36 months,12.85,9,MORTGAGE,40000,debt_consolidation,IN,23.67,0,20.4,36,good,14,verified
+5725,36 months,16.99,10,MORTGAGE,64346,debt_consolidation,IN,22.54,0,68,26,good,24,not verified
+20050,36 months,22.9,3,MORTGAGE,75000,debt_consolidation,IN,25.02,0,99,42,bad,17,verified
+35000,36 months,16.24,10,MORTGAGE,140000,debt_consolidation,IN,8.81,0,53.2,47,good,25,verified
+7000,36 months,14.47,2,MORTGAGE,78000,credit_card,IN,10.75,1,21.2,27,good,15,not verified
+35000,60 months,19.97,10,MORTGAGE,85000,debt_consolidation,IN,20.98,1,13.8,38,good,13,verified
+10000,60 months,18.25,10,RENT,42000,moving,IN,14.37,0,70,16,good,14,verified
+20000,60 months,23.4,9,OWN,155000,debt_consolidation,IN,8.93,0,50.4,31,good,29,verified
+17500,36 months,18.25,10,OWN,39500,credit_card,IN,27.29,0,67.6,20,good,26,verified
+2100,36 months,16.24,2,MORTGAGE,66000,debt_consolidation,IN,6.22,0,15.4,25,good,22,verified
+8000,36 months,16.99,6,MORTGAGE,33640,debt_consolidation,IN,33.64,0,63.1,23,bad,5,verified
+14000,36 months,10.99,4,MORTGAGE,85000,debt_consolidation,IN,11.11,0,80.1,13,good,8,not verified
+6600,36 months,8.9,3,RENT,55000,credit_card,IN,29.15,0,49.3,38,good,10,verified
+12000,36 months,10.99,3,MORTGAGE,87200,home_improvement,IN,18.26,0,29.9,34,good,16,verified
+30000,36 months,14.98,4,MORTGAGE,118000,debt_consolidation,IN,14.76,1,54.3,34,good,9,verified
+15000,36 months,13.53,10,MORTGAGE,103000,debt_consolidation,IN,8.76,0,49.7,21,good,20,verified
+15000,60 months,23.7,10,MORTGAGE,72000,debt_consolidation,IN,22.07,0,92.1,20,good,28,verified
+12000,36 months,13.67,5,MORTGAGE,80000,debt_consolidation,IN,17.66,0,65.8,21,good,19,verified
+12875,36 months,17.57,6,MORTGAGE,47300,debt_consolidation,IN,10.53,0,53.9,24,good,12,not verified
+21600,60 months,15.61,NA,MORTGAGE,160000,debt_consolidation,IN,16.25,0,94,27,good,22,verified
+25000,60 months,17.76,10,MORTGAGE,78000,debt_consolidation,IN,18.06,0,67.2,41,good,13,verified
+16000,60 months,18.55,10,MORTGAGE,41000,debt_consolidation,IN,20.35,0,35.5,31,good,16,verified
+15000,36 months,7.9,10,OWN,63000,debt_consolidation,IN,20.51,0,48.6,28,good,13,verified
+7200,36 months,12.99,6,MORTGAGE,50000,credit_card,IN,21.27,1,83,17,good,14,verified
+30000,36 months,15.61,8,OWN,68000,debt_consolidation,IN,6.3,0,36.7,32,good,12,verified
+10000,36 months,11.99,NA,MORTGAGE,43000,credit_card,IN,5.58,0,39.7,16,good,36,verified
+12000,60 months,10.99,5,RENT,78000,debt_consolidation,IN,18.4,0,12.2,29,good,20,verified
+7800,36 months,12.99,10,MORTGAGE,52000,debt_consolidation,IN,24.23,0,39.9,23,good,23,not verified
+6200,36 months,12.99,10,MORTGAGE,52000,debt_consolidation,IN,7.71,0,81.8,16,good,18,not verified
+3900,36 months,17.76,2,MORTGAGE,37000,debt_consolidation,IN,15.02,0,52.5,24,good,14,verified
+8000,36 months,16.2,10,OWN,42000,home_improvement,IN,9.17,0,77.6,9,good,8,verified
+9950,36 months,17.1,7,MORTGAGE,52644,credit_card,IN,23.98,0,86.4,21,good,11,not verified
+14000,60 months,9.67,0,OWN,99500,debt_consolidation,IN,28.82,0,21.1,46,good,20,verified
+24000,60 months,15.61,0,MORTGAGE,75000,debt_consolidation,IN,22.98,0,83.1,40,good,12,verified
+22475,60 months,19.52,10,MORTGAGE,85000,debt_consolidation,IN,29.31,0,64.9,43,good,17,verified
+17050,36 months,10.99,10,MORTGAGE,39000,debt_consolidation,IN,16.55,0,41.2,20,good,14,verified
+15000,36 months,15.61,7,MORTGAGE,40000,debt_consolidation,IN,19.23,0,51.5,45,good,16,verified
+7000,36 months,7.9,9,OWN,47059,credit_card,IN,21.17,1,25.7,33,good,38,not verified
+4000,36 months,17.76,3,MORTGAGE,40032,credit_card,IN,15.92,2,34.4,24,good,10,verified
+10950,36 months,11.99,2,MORTGAGE,85500,debt_consolidation,IN,15.45,0,51.1,29,good,10,verified
+18000,36 months,11.99,4,MORTGAGE,78000,credit_card,IN,17.6,1,58.9,16,good,10,not verified
+9950,36 months,10.99,10,MORTGAGE,55000,debt_consolidation,IN,5.96,0,58.1,49,good,23,verified
+6000,36 months,18.55,8,RENT,42000,debt_consolidation,IN,16.12,0,26.1,16,good,11,not verified
+4000,36 months,18.55,NA,RENT,14940,debt_consolidation,IN,18.31,0,92.5,25,bad,10,verified
+14400,36 months,13.67,0,MORTGAGE,60000,debt_consolidation,IN,21.06,0,37.5,55,good,10,verified
+7500,36 months,7.9,0,RENT,50000,medical,IN,21.22,0,5.9,27,good,17,not verified
+8000,36 months,13.67,10,MORTGAGE,54000,debt_consolidation,IN,14.09,1,34.2,16,good,10,verified
+3000,60 months,22.4,4,MORTGAGE,62000,car,IN,29.02,0,60.2,26,bad,13,verified
+15000,36 months,15.1,1,MORTGAGE,82000,credit_card,IN,32.39,2,63.4,32,bad,11,verified
+12000,36 months,13.67,0,RENT,50000,credit_card,IN,12.77,1,45.1,18,good,14,not verified
+14250,36 months,11.99,NA,RENT,65000,credit_card,IN,16.95,0,77.5,19,bad,22,verified
+12000,36 months,14.3,5,RENT,72106.12,debt_consolidation,IN,18.79,0,86.8,30,good,8,verified
+6000,36 months,12.99,4,OWN,45000,debt_consolidation,IN,22.48,0,53.1,10,good,4,not verified
+10000,60 months,9.67,3,MORTGAGE,62000,home_improvement,IN,17.07,0,31.9,18,good,8,verified
+10000,36 months,9.67,10,MORTGAGE,35000,credit_card,IN,14.47,0,87.5,27,good,13,verified
+12800,36 months,7.9,10,MORTGAGE,112000,debt_consolidation,IN,11.45,0,71.1,22,good,27,not verified
+7675,36 months,20.2,NA,MORTGAGE,35800,debt_consolidation,IN,5.1,0,80.9,5,bad,19,verified
+6075,36 months,13.67,3,MORTGAGE,35000,other,IN,9.33,0,42.7,8,good,4,verified
+15000,36 months,9.67,10,MORTGAGE,60000,debt_consolidation,IN,25.36,0,44.4,25,bad,11,not verified
+4900,36 months,9.67,10,MORTGAGE,110000,debt_consolidation,IN,19.38,0,78.9,19,good,11,verified
+6900,36 months,15.1,5,MORTGAGE,79170,home_improvement,IN,23.4,0,98.2,11,good,21,verified
+15000,60 months,19.2,10,MORTGAGE,121000,other,IN,25.39,0,76,40,bad,18,verified
+22575,60 months,17.76,7,MORTGAGE,51321,debt_consolidation,IN,23.62,0,75.7,17,bad,11,verified
+15000,60 months,16.2,9,MORTGAGE,51800,debt_consolidation,IN,11.31,0,19.9,20,good,12,verified
+17000,36 months,12.99,10,MORTGAGE,82000,debt_consolidation,IN,11.62,2,67.2,19,good,21,verified
+10000,36 months,10.99,10,MORTGAGE,71000,debt_consolidation,IN,18.85,0,31,63,good,19,not verified
+32000,36 months,14.3,9,MORTGAGE,78000,debt_consolidation,IN,26.26,0,88.9,31,good,15,verified
+6000,36 months,11.99,8,OWN,28600,debt_consolidation,IN,21.11,0,61.3,41,good,14,not verified
+10500,36 months,18.55,NA,MORTGAGE,30000,debt_consolidation,IN,9.72,0,12.6,27,good,15,verified
+18000,60 months,15.1,7,MORTGAGE,45000,credit_card,IN,26.03,0,81.9,32,good,12,verified
+9000,36 months,6.62,10,MORTGAGE,75000,debt_consolidation,IN,22.42,0,40.5,45,good,29,not verified
+3000,36 months,8.9,NA,RENT,26363.04,debt_consolidation,IN,26.55,0,33.9,18,good,14,verified
+11850,36 months,13.67,2,OWN,67787,credit_card,IN,18.18,0,75,34,good,15,not verified
+9000,36 months,19.2,10,RENT,55700,other,IN,29.11,0,84.3,26,good,13,not verified
+20000,36 months,14.3,5,MORTGAGE,45000,debt_consolidation,IN,30.91,0,87.1,39,good,11,verified
+14000,60 months,16.2,10,MORTGAGE,65000,debt_consolidation,IN,26.14,0,35.5,62,good,16,verified
+20000,36 months,14.3,10,MORTGAGE,85090,debt_consolidation,IN,8.83,2,37.7,26,good,19,verified
+20000,36 months,20.2,1,MORTGAGE,45000,debt_consolidation,IN,6.88,0,74.2,15,good,13,verified
+9750,36 months,15.61,NA,MORTGAGE,30000,credit_card,IN,25,0,54.3,20,good,21,verified
+30000,36 months,19.2,3,MORTGAGE,102500,debt_consolidation,IN,9.1,0,62.3,16,good,22,verified
+5000,36 months,11.99,4,RENT,28000,debt_consolidation,IN,16.67,0,39.4,42,good,11,not verified
+13200,36 months,16.2,5,OWN,70000,debt_consolidation,IN,5,0,44.5,10,good,12,verified
+7500,36 months,10.99,5,MORTGAGE,46000,home_improvement,IN,9.16,0,70.3,33,bad,14,not verified
+8000,36 months,15.1,2,RENT,35000,debt_consolidation,IN,19.79,0,92.2,27,good,13,not verified
+14825,36 months,17.76,1,MORTGAGE,88000,credit_card,IN,12.64,0,86,24,good,14,verified
+17000,60 months,21,8,RENT,48000,credit_card,IN,18.14,0,64.6,12,good,23,verified
+28000,36 months,7.62,10,MORTGAGE,81000,debt_consolidation,IN,15.39,0,19.4,31,good,17,verified
+12000,36 months,7.9,10,MORTGAGE,46293,credit_card,IN,22.92,0,57,43,good,11,verified
+6600,36 months,14.3,10,MORTGAGE,80000,debt_consolidation,IN,13.04,6,6.6,37,good,25,not verified
+4950,36 months,15.1,1,MORTGAGE,32000,credit_card,IN,13.88,0,74,8,good,9,verified
+7000,36 months,15.61,7,MORTGAGE,55000,debt_consolidation,IN,20.6,2,97,18,bad,14,verified
+10000,36 months,15.1,10,MORTGAGE,105000,debt_consolidation,IN,10.3,0,61.8,19,good,30,verified
+18000,60 months,17.76,10,MORTGAGE,63000,debt_consolidation,IN,32.63,0,36.6,39,bad,16,verified
+18225,60 months,17.1,1,MORTGAGE,80000,debt_consolidation,IN,11.7,0,39.5,29,good,12,verified
+20000,60 months,20.2,10,MORTGAGE,93000,debt_consolidation,IN,12.65,0,42.4,30,good,20,verified
+7550,36 months,11.99,10,MORTGAGE,26000,debt_consolidation,IN,27.42,0,70.1,18,good,7,verified
+16950,60 months,23.4,6,MORTGAGE,38000,debt_consolidation,IN,34.71,0,80.6,35,good,10,verified
+4200,36 months,15.61,10,MORTGAGE,68000,home_improvement,IN,8.75,1,89.6,28,bad,19,verified
+25000,36 months,7.62,2,MORTGAGE,83000,debt_consolidation,IN,8.63,0,48.5,35,good,24,verified
+15000,36 months,12.99,10,RENT,67400,debt_consolidation,IN,9.97,1,11.9,32,good,24,verified
+11500,60 months,24.08,4,RENT,35000,credit_card,IN,23.31,0,68.2,28,good,12,verified
+33425,36 months,15.61,10,MORTGAGE,75000,debt_consolidation,IN,27.37,0,71.2,21,good,13,verified
+18825,60 months,24.08,0,MORTGAGE,49535,debt_consolidation,IN,24.38,0,59,17,bad,6,verified
+11600,60 months,17.76,10,OWN,45000,credit_card,IN,10.72,0,52.6,34,good,12,verified
+9000,36 months,18.55,0,MORTGAGE,60000,debt_consolidation,IN,17.76,2,49.7,22,good,10,verified
+9100,36 months,15.61,4,MORTGAGE,30000,home_improvement,IN,22.12,0,58.9,14,bad,11,not verified
+6000,36 months,14.3,6,MORTGAGE,35360,credit_card,IN,29.02,0,51.3,38,bad,24,verified
+14000,36 months,15.61,10,MORTGAGE,90000,debt_consolidation,IN,14.35,0,69.6,51,good,25,verified
+6000,36 months,18.55,10,MORTGAGE,30000,credit_card,IN,24.16,0,16.8,23,good,11,not verified
+9000,36 months,15.61,3,MORTGAGE,80000,debt_consolidation,IN,7.71,1,57.5,46,good,18,not verified
+9000,36 months,19.2,10,MORTGAGE,62000,credit_card,IN,33.33,1,69.5,33,good,28,verified
+10000,36 months,9.99,8,RENT,53000,debt_consolidation,IN,13.22,0,56,22,good,12,not verified
+10000,60 months,24.08,4,RENT,35600,debt_consolidation,IN,23.97,1,52.8,15,bad,14,verified
+20000,60 months,24.08,4,MORTGAGE,60000,debt_consolidation,IN,24.36,4,48.7,45,good,16,verified
+9600,36 months,7.62,2,MORTGAGE,55000,debt_consolidation,IN,8.33,0,48.5,17,good,18,not verified
+5375,36 months,9.99,10,MORTGAGE,50000,credit_card,IN,10.2,0,44.1,20,good,9,not verified
+8000,36 months,17.76,10,RENT,36000,debt_consolidation,IN,28.8,0,80.3,34,good,22,verified
+32350,60 months,17.1,8,MORTGAGE,98000,debt_consolidation,IN,17.32,0,37.4,30,bad,13,verified
+10000,36 months,14.3,10,MORTGAGE,50700,home_improvement,IN,27.57,0,43.6,25,bad,17,verified
+6000,36 months,17.76,NA,RENT,27704,debt_consolidation,IN,5.89,0,38.3,39,good,37,verified
+12000,36 months,13.67,10,MORTGAGE,85000,home_improvement,IN,12,0,62.2,11,good,12,verified
+11700,36 months,9.99,2,MORTGAGE,34000,debt_consolidation,IN,34.26,0,60.4,18,good,15,verified
+29000,60 months,17.1,10,RENT,72800,credit_card,IN,29.74,0,59.5,26,good,13,verified
+13250,60 months,16.2,4,RENT,42500,debt_consolidation,IN,16.04,0,83.4,10,good,11,verified
+7600,36 months,14.3,2,MORTGAGE,40622,credit_card,IN,19.61,0,79.2,37,good,12,verified
+7500,36 months,15.61,10,MORTGAGE,50000,credit_card,IN,3.91,0,100.8,31,bad,19,verified
+10000,60 months,20.2,7,MORTGAGE,53840,other,IN,11.97,1,45,23,good,11,verified
+17600,36 months,10.99,6,RENT,59900,credit_card,IN,22.76,0,38.6,29,good,14,verified
+2500,36 months,10.99,10,MORTGAGE,42000,debt_consolidation,IN,7.11,0,18.4,21,good,10,not verified
+19750,60 months,23.4,9,OWN,45000,debt_consolidation,IN,18.32,1,29.5,29,bad,16,verified
+10400,36 months,14.3,10,MORTGAGE,75000,debt_consolidation,IN,15.68,0,85.8,13,good,18,not verified
+5375,36 months,9.99,5,RENT,19987.07,debt_consolidation,IN,29.78,0,64.7,34,bad,11,verified
+8875,36 months,13.67,10,MORTGAGE,26000,credit_card,IN,28.66,0,67.3,41,good,12,verified
+15000,60 months,11.99,9,MORTGAGE,85000,credit_card,IN,9.17,2,50.1,29,good,11,verified
+10000,36 months,11.99,5,MORTGAGE,50000,credit_card,IN,23.16,0,83.6,27,good,20,not verified
+7000,36 months,10.99,7,MORTGAGE,29200,debt_consolidation,IN,20.01,0,63.2,26,good,16,verified
+15000,60 months,10.99,10,MORTGAGE,100000,debt_consolidation,IN,19.79,0,48.2,42,good,11,verified
+7000,36 months,16.2,6,MORTGAGE,46000,debt_consolidation,IN,25.62,0,18.6,30,good,10,verified
+31050,60 months,21,10,MORTGAGE,69500,debt_consolidation,IN,25.56,0,72.5,38,good,13,verified
+10000,36 months,14.3,0,RENT,44000,debt_consolidation,IN,32.56,0,26.3,49,good,28,verified
+24000,60 months,15.61,7,MORTGAGE,72000,debt_consolidation,IN,21.25,0,58,24,bad,16,verified
+25000,60 months,17.76,10,MORTGAGE,75000,debt_consolidation,IN,22.48,1,27.3,35,good,13,verified
+21000,60 months,15.61,0,MORTGAGE,90000,debt_consolidation,IN,20.11,0,62.2,24,bad,22,verified
+18000,60 months,23.1,8,MORTGAGE,50000,credit_card,IN,31.66,0,79.3,32,bad,13,verified
+9000,36 months,6.03,10,MORTGAGE,78000,debt_consolidation,IN,14.57,0,9,30,good,16,not verified
+6000,36 months,6.03,10,MORTGAGE,97500,home_improvement,IN,5.09,0,8.9,26,good,15,verified
+16675,60 months,17.76,2,MORTGAGE,68000,credit_card,IN,11.99,0,64.7,20,good,28,verified
+25000,60 months,11.99,10,MORTGAGE,70000,credit_card,IN,19.18,0,68.7,19,good,34,verified
+15050,60 months,15.1,10,MORTGAGE,43000,debt_consolidation,IN,29.53,0,54,22,good,19,verified
+6000,36 months,16.2,10,MORTGAGE,85000,credit_card,IN,34.45,1,54.9,36,good,29,verified
+18000,36 months,10.99,10,MORTGAGE,88000,debt_consolidation,IN,11.07,0,51.4,27,good,12,not verified
+30000,60 months,24.5,8,MORTGAGE,75000,debt_consolidation,IN,26.4,0,64.2,31,bad,10,verified
+20000,36 months,13.67,8,MORTGAGE,45000,credit_card,IN,10.72,0,33.8,19,good,38,verified
+20000,36 months,13.67,7,MORTGAGE,50000,credit_card,IN,22.87,0,23.3,56,bad,25,verified
+7000,36 months,9.25,10,MORTGAGE,57000,debt_consolidation,IN,10.93,0,68.9,16,good,20,not verified
+9950,36 months,8.6,9,MORTGAGE,60000,debt_consolidation,IN,22.66,0,33,25,good,14,not verified
+10400,36 months,6.97,NA,MORTGAGE,47000,credit_card,IN,26.68,0,19.9,27,good,40,verified
+6000,36 months,14.3,2,OWN,55000,debt_consolidation,IN,11.83,0,83.9,21,good,9,not verified
+33425,36 months,19.2,0,MORTGAGE,75000,debt_consolidation,IN,16.06,0,53.1,37,good,24,verified
+2800,36 months,24.5,10,RENT,102000,medical,IN,19.62,0,84.3,32,bad,8,verified
+8400,36 months,17.1,5,MORTGAGE,30000,credit_card,IN,24.68,0,93.4,7,good,9,not verified
+22000,36 months,7.62,3,MORTGAGE,59000,debt_consolidation,IN,25.12,0,26,43,good,12,verified
+7000,36 months,16.2,7,MORTGAGE,92650,debt_consolidation,IN,26.09,0,40.8,32,good,13,verified
+28000,36 months,17.1,3,MORTGAGE,70000,debt_consolidation,IN,18.75,0,30.5,47,good,13,verified
+7200,36 months,13.67,NA,RENT,24000,credit_card,IN,27.55,0,55,44,good,15,verified
+20000,36 months,11.99,3,MORTGAGE,79000,credit_card,IN,9.42,0,83.1,12,good,12,verified
+7000,36 months,19.52,9,OWN,55000,debt_consolidation,IN,19.35,0,63.3,14,bad,10,verified
+20000,36 months,9.25,7,MORTGAGE,105000,debt_consolidation,IN,7.6,0,41.6,20,good,18,verified
+21100,60 months,15.61,10,MORTGAGE,60000,debt_consolidation,IN,20.48,0,77,37,bad,17,verified
+35000,36 months,17.1,NA,MORTGAGE,134000,debt_consolidation,IN,22.62,0,93,29,good,27,verified
+12000,60 months,15.1,5,MORTGAGE,100000,debt_consolidation,IN,11,0,21.3,30,good,21,verified
+8875,36 months,21,7,RENT,55000,other,IN,9.62,0,58.3,25,good,12,verified
+9000,36 months,16.2,10,MORTGAGE,99625,debt_consolidation,IN,22.84,0,70,57,good,12,verified
+16425,60 months,17.1,10,MORTGAGE,37000,debt_consolidation,IN,23.48,1,82.3,30,bad,17,verified
+29000,60 months,13.67,10,RENT,68000,debt_consolidation,IN,32.47,0,47.9,26,good,21,verified
+24375,60 months,19.52,10,MORTGAGE,90000,credit_card,IN,11.09,0,82.7,21,good,13,verified
+18500,36 months,16.2,10,MORTGAGE,52000,credit_card,IN,23.57,0,61.9,34,good,24,verified
+29175,36 months,21.7,10,RENT,74100,small_business,IN,23,0,89.5,17,good,20,verified
+20000,60 months,13.67,10,MORTGAGE,88000,debt_consolidation,IN,11.56,0,41.5,33,bad,11,verified
+12000,36 months,7.62,7,MORTGAGE,220000,major_purchase,IN,9.93,0,27.4,34,good,21,verified
+19000,36 months,11.99,3,MORTGAGE,105000,credit_card,IN,11.59,0,60,24,bad,7,not verified
+30225,36 months,14.3,6,MORTGAGE,68000,home_improvement,IN,24.11,0,52,32,good,19,verified
+19075,36 months,9.99,4,RENT,48000,house,IN,2.03,0,3.5,10,good,8,not verified
+19950,36 months,13.67,2,MORTGAGE,60000,debt_consolidation,IN,34.42,0,61.3,49,good,16,verified
+21600,60 months,9.99,0,MORTGAGE,65000,credit_card,IN,11.85,0,63.9,18,good,34,verified
+3000,36 months,19.2,10,MORTGAGE,70000,home_improvement,IN,14.61,0,83.3,24,good,18,not verified
+10000,36 months,15.1,10,MORTGAGE,83000,debt_consolidation,IN,4.5,3,42.4,27,good,34,verified
+8600,36 months,11.99,3,MORTGAGE,58000,debt_consolidation,IN,16.94,0,53.4,33,good,22,verified
+9500,36 months,7.62,NA,RENT,48000,debt_consolidation,IN,13.15,0,27.1,32,good,20,verified
+4950,36 months,12.99,8,RENT,30000,debt_consolidation,IN,22.32,0,70.2,7,good,5,not verified
+3700,60 months,24.5,10,MORTGAGE,85000,other,IN,22.49,0,54.2,30,good,11,verified
+10000,60 months,14.33,4,MORTGAGE,30000,debt_consolidation,IN,12.63,0,56.6,17,bad,6,verified
+18000,36 months,12.35,10,MORTGAGE,58000,credit_card,IN,20.07,0,70.7,17,good,16,not verified
+10000,36 months,7.62,5,MORTGAGE,100000,major_purchase,IN,7.76,0,6.4,24,good,13,not verified
+3000,36 months,14.33,3,RENT,35000,debt_consolidation,IN,22.46,0,63.9,10,good,6,not verified
+5000,36 months,10.64,7,MORTGAGE,36836,major_purchase,IN,14.99,0,43.8,13,good,14,not verified
+23000,60 months,24.08,10,MORTGAGE,59000,debt_consolidation,IN,30.24,0,73.7,45,good,13,verified
+8000,36 months,13.68,1,MORTGAGE,38000,home_improvement,IN,28.86,0,44.3,26,good,9,verified
+16000,36 months,17.56,3,OWN,40000,car,IN,5.58,0,76,37,bad,8,verified
+8575,36 months,15.88,3,RENT,25000,credit_card,IN,28.61,0,75.1,17,bad,11,not verified
+14000,36 months,11.55,2,RENT,98325,debt_consolidation,IN,18.12,0,70.9,21,good,18,not verified
+14125,60 months,13.68,6,MORTGAGE,72900,debt_consolidation,IN,19.74,0,62.1,28,bad,11,verified
+8000,36 months,20.31,6,MORTGAGE,64000,wedding,IN,19.44,0,39,43,good,22,verified
+27575,60 months,22.7,7,MORTGAGE,62000,debt_consolidation,IN,32.83,0,94.4,26,good,10,verified
+14000,36 months,11.55,9,MORTGAGE,45000,debt_consolidation,IN,19.57,0,38.2,18,good,11,verified
+18000,60 months,21.15,5,MORTGAGE,52625,debt_consolidation,IN,29.94,2,56.4,29,good,10,verified
+9175,36 months,13.68,10,MORTGAGE,42900,debt_consolidation,IN,30.63,0,87.9,18,good,14,verified
+25000,60 months,23.5,8,MORTGAGE,70000,debt_consolidation,IN,23.33,0,47.9,29,good,24,verified
+16425,36 months,16.78,10,MORTGAGE,37000,debt_consolidation,IN,19.2,1,57.1,21,good,12,verified
+9250,36 months,11.55,7,OWN,85600,debt_consolidation,IN,22.3,0,62.2,29,good,15,not verified
+20000,60 months,22.2,0,RENT,50000,debt_consolidation,IN,19.2,0,78.7,33,good,16,verified
+5875,36 months,11.55,NA,MORTGAGE,60000,debt_consolidation,IN,16.36,0,48,16,good,14,verified
+8500,36 months,18.25,10,MORTGAGE,45000,credit_card,IN,20.43,0,65,23,good,15,not verified
+16000,36 months,13.05,0,MORTGAGE,90000,debt_consolidation,IN,13.45,1,96.8,36,good,15,verified
+30225,60 months,23.5,10,MORTGAGE,70000,credit_card,IN,18.15,0,76.4,24,bad,15,verified
+25000,60 months,21.15,10,RENT,200000,debt_consolidation,IN,10.79,0,64.9,24,good,11,verified
+24000,36 months,12.35,1,MORTGAGE,89064,debt_consolidation,IN,24.14,0,76,29,good,11,verified
+25200,60 months,20.8,2,MORTGAGE,107000,credit_card,IN,16.65,0,79.3,29,bad,17,verified
+19500,60 months,17.56,6,RENT,85000,credit_card,IN,15.74,0,74.5,18,good,17,verified
+11625,36 months,15.88,6,RENT,34000,credit_card,IN,34.31,0,99.9,24,bad,11,verified
+18000,36 months,7.9,NA,RENT,105980,credit_card,IN,11.9,0,40.8,24,good,22,verified
+8400,36 months,17.56,10,MORTGAGE,58000,credit_card,IN,20.46,0,68.7,32,good,12,not verified
+8500,36 months,15.88,1,MORTGAGE,26000,debt_consolidation,IN,13.15,0,88,15,bad,11,not verified
+32000,60 months,26.06,10,MORTGAGE,400000,small_business,IN,6.06,0,60.2,29,bad,30,verified
+4000,36 months,17.56,9,RENT,62000,credit_card,IN,14.32,0,76.9,26,good,11,not verified
+18000,36 months,10.64,10,MORTGAGE,65000,credit_card,IN,19.9,0,59.3,41,good,13,verified
+10000,36 months,13.05,10,RENT,36000,credit_card,IN,21.17,0,47.9,16,bad,8,not verified
+16000,60 months,15.88,10,MORTGAGE,95000,credit_card,IN,22.43,0,83.9,29,good,17,verified
+24000,36 months,18.85,10,MORTGAGE,80000,debt_consolidation,IN,26.43,0,68.2,63,good,33,verified
+28000,36 months,15.22,10,MORTGAGE,106000,credit_card,IN,17.05,0,62.9,40,good,20,verified
+19700,36 months,11.55,1,MORTGAGE,44000,debt_consolidation,IN,20.45,0,81.4,20,good,10,verified
+12000,60 months,26.06,10,RENT,60000,debt_consolidation,IN,14.56,0,55.3,35,bad,14,verified
+7800,36 months,10.64,10,MORTGAGE,60000,debt_consolidation,IN,11.44,1,60.4,20,good,25,not verified
+28625,60 months,22.7,10,MORTGAGE,76000,home_improvement,IN,8.62,0,99.6,17,good,24,verified
+20000,60 months,16.78,10,MORTGAGE,85000,credit_card,IN,18.72,0,57.9,44,bad,12,verified
+6500,36 months,11.55,0,RENT,40000,credit_card,IN,24.48,0,25.3,23,good,9,not verified
+12000,60 months,21.15,0,RENT,60000,credit_card,IN,18.74,0,77.5,22,good,36,verified
+15000,36 months,12.35,6,MORTGAGE,130000,home_improvement,IN,9.5,5,45.4,30,good,17,verified
+9000,60 months,22.2,1,MORTGAGE,48000,other,IN,22.03,0,27.8,17,good,18,verified
+20000,36 months,7.9,10,MORTGAGE,100000,debt_consolidation,IN,30.56,0,50.9,44,bad,34,verified
+16950,60 months,15.22,10,RENT,38000,debt_consolidation,IN,17.34,0,67,9,bad,13,verified
+18000,60 months,22.7,10,MORTGAGE,90000,debt_consolidation,IN,27.85,1,71,41,good,20,verified
+7375,36 months,13.05,2,OWN,35000,debt_consolidation,IN,26.06,0,28.1,19,good,19,verified
+9250,36 months,7.9,5,RENT,27219.68,debt_consolidation,IN,11.68,0,41.7,6,good,29,not verified
+18000,60 months,21.6,1,OWN,40000,debt_consolidation,IN,18.93,0,78.6,9,good,23,verified
+15000,36 months,8.9,0,MORTGAGE,49573,credit_card,IN,8.98,0,42.9,25,good,12,verified
+19500,60 months,22.7,10,MORTGAGE,60000,debt_consolidation,IN,14.12,0,94.8,28,good,13,verified
+15400,36 months,18.25,1,MORTGAGE,38000,debt_consolidation,IN,20.85,2,9.2,21,good,24,verified
+5000,36 months,13.05,10,MORTGAGE,58000,debt_consolidation,IN,20.77,0,76,21,good,16,not verified
+7750,36 months,16.78,4,MORTGAGE,25000,credit_card,IN,33.12,0,42.8,18,bad,4,verified
+7000,36 months,11.55,2,RENT,50000,debt_consolidation,IN,8.4,0,15.5,12,bad,12,not verified
+12000,60 months,22.7,10,MORTGAGE,51956,debt_consolidation,IN,6.7,0,61.6,26,good,14,verified
+10625,36 months,15.22,6,OWN,48000,wedding,IN,14.63,0,34.1,35,good,32,verified
+9200,36 months,6.62,NA,RENT,26297,credit_card,IN,20.95,0,38.2,27,good,15,verified
+4750,36 months,13.05,NA,MORTGAGE,17650,debt_consolidation,IN,24.97,0,63.7,34,bad,19,verified
+9600,36 months,9.71,1,MORTGAGE,40000,debt_consolidation,IN,15.72,0,50.4,15,good,10,not verified
+32350,36 months,14.33,10,MORTGAGE,72000,credit_card,IN,27.84,0,63,27,good,29,verified
+20400,60 months,15.22,10,MORTGAGE,70000,debt_consolidation,IN,8.93,0,65.7,24,good,10,verified
+11000,36 months,11.55,10,MORTGAGE,60000,debt_consolidation,IN,4.08,1,69.7,14,good,15,not verified
+20000,36 months,8.9,10,MORTGAGE,165000,debt_consolidation,IN,10.25,0,45.5,34,good,19,verified
+28000,60 months,10.64,1,MORTGAGE,115000,debt_consolidation,IN,21.35,0,30.3,48,good,28,verified
+13000,36 months,7.62,5,RENT,65000,debt_consolidation,IN,13.05,0,27.6,9,good,11,not verified
+30000,60 months,24.08,10,RENT,143000,debt_consolidation,IN,18.95,0,65.3,38,good,24,verified
+5000,36 months,12.35,10,RENT,17500,debt_consolidation,IN,27.57,1,65.6,13,good,12,not verified
+1000,36 months,16.78,5,RENT,43000,other,IN,14.18,1,57.4,17,good,11,not verified
+3625,36 months,18.85,1,RENT,53000,debt_consolidation,IN,2.33,0,55.9,12,bad,6,not verified
+6000,36 months,9.71,8,MORTGAGE,54000,credit_card,IN,11.42,0,36.7,48,good,16,not verified
+11100,36 months,17.56,2,RENT,32000,debt_consolidation,IN,16.91,0,40.1,9,good,17,not verified
+12000,36 months,17.56,NA,MORTGAGE,42000,debt_consolidation,IN,28.57,0,68.8,22,bad,14,verified
+10000,36 months,12.35,10,OWN,48000,home_improvement,IN,1.68,0,36.4,12,good,17,verified
+8575,36 months,11.55,10,MORTGAGE,26000,debt_consolidation,IN,24.97,0,93.4,29,good,13,verified
+6000,36 months,14.33,NA,RENT,22968,house,IN,26.85,0,29.9,12,bad,31,verified
+8875,36 months,16.78,1,MORTGAGE,32000,credit_card,IN,15.34,0,33.7,12,good,19,not verified
+21000,60 months,14.33,NA,MORTGAGE,88000,credit_card,IN,13.18,0,59.3,39,good,24,verified
+20000,60 months,14.33,5,MORTGAGE,73000,credit_card,IN,5.57,0,56.3,17,good,31,verified
+12000,36 months,18.85,10,MORTGAGE,85000,debt_consolidation,IN,15.53,1,31.4,31,good,16,verified
+6500,36 months,14.33,2,MORTGAGE,58000,debt_consolidation,IN,13.22,0,35.6,6,good,5,not verified
+24000,60 months,18.25,10,OWN,68000,debt_consolidation,IN,31.59,0,61.4,28,bad,16,verified
+17000,60 months,16.78,6,MORTGAGE,57000,debt_consolidation,IN,25.18,0,79.5,17,bad,15,verified
+8450,36 months,18.25,1,MORTGAGE,25000,other,IN,33.46,0,14.2,20,good,14,verified
+6000,36 months,12.35,10,MORTGAGE,57000,debt_consolidation,IN,27.28,1,69,25,good,15,not verified
+18000,36 months,13.05,7,MORTGAGE,65000,credit_card,IN,30.26,0,43,41,good,17,verified
+35000,60 months,15.22,10,MORTGAGE,100000,debt_consolidation,IN,21.65,0,62.8,33,good,31,verified
+9950,36 months,13.05,7,MORTGAGE,30000,debt_consolidation,IN,31.6,0,48.4,31,good,8,verified
+28000,60 months,17.56,10,MORTGAGE,80000,home_improvement,IN,12.93,0,83.8,25,bad,15,verified
+26000,36 months,13.68,10,MORTGAGE,112000,debt_consolidation,IN,20.79,0,24.6,40,good,17,verified
+5000,36 months,9.71,NA,MORTGAGE,36500,debt_consolidation,IN,8.55,0,31.9,16,good,47,verified
+10000,36 months,7.62,5,RENT,42000,debt_consolidation,IN,19.4,0,5.5,15,good,16,not verified
+5000,36 months,9.71,10,MORTGAGE,90500,car,IN,12.42,0,32.1,20,good,17,not verified
+13000,36 months,10.64,0,MORTGAGE,88000,debt_consolidation,IN,11.35,0,46.8,37,good,14,not verified
+12000,36 months,13.68,10,MORTGAGE,57000,home_improvement,IN,28.23,0,82.6,24,good,26,verified
+5375,36 months,10.64,8,MORTGAGE,18000,credit_card,IN,13.4,0,37.8,8,bad,19,verified
+15000,36 months,15.22,10,MORTGAGE,52000,credit_card,IN,13.34,0,55.1,22,good,13,verified
+25000,60 months,15.88,8,MORTGAGE,89000,debt_consolidation,IN,21.03,1,47.5,19,good,22,verified
+15800,60 months,16.78,10,MORTGAGE,40000,debt_consolidation,IN,32.07,0,59.8,34,bad,14,verified
+26500,60 months,21.15,8,MORTGAGE,110000,credit_card,IN,18.21,1,69.5,38,good,24,verified
+10000,36 months,9.71,0,MORTGAGE,63000,credit_card,IN,19.24,0,54.1,23,bad,20,not verified
+1000,36 months,15.22,8,MORTGAGE,67500,debt_consolidation,IN,13.32,0,16.4,40,good,17,verified
+11500,60 months,15.22,10,OWN,33000,debt_consolidation,IN,28.58,0,52.5,44,good,25,verified
+5000,36 months,13.05,10,MORTGAGE,22000,other,IN,4.85,0,38.8,13,good,8,verified
+15000,60 months,21.6,10,MORTGAGE,89000,debt_consolidation,IN,10.27,0,62.4,22,good,14,verified
+22000,60 months,14.33,7,MORTGAGE,72000,debt_consolidation,IN,22.86,0,49.5,35,good,12,verified
+18000,60 months,14.33,10,MORTGAGE,57000,credit_card,IN,26.84,0,45.1,42,bad,17,verified
+3000,36 months,18.85,2,MORTGAGE,41580,other,IN,19.64,0,68.3,36,good,13,not verified
+29175,60 months,19.52,10,MORTGAGE,65000,debt_consolidation,IN,15.1,0,55.7,20,bad,9,verified
+14000,36 months,13.05,2,MORTGAGE,54600,credit_card,IN,11.63,0,35.2,39,bad,9,verified
+4800,36 months,14.33,7,MORTGAGE,42000,credit_card,IN,9.2,0,66.6,33,good,16,verified
+18000,36 months,11.55,10,MORTGAGE,52000,debt_consolidation,IN,9.68,0,45.7,25,bad,15,not verified
+20000,36 months,18.85,6,MORTGAGE,150000,debt_consolidation,IN,25.88,3,45,43,good,18,verified
+6000,36 months,9.71,10,RENT,53000,home_improvement,IN,14.9,0,8.8,63,good,22,not verified
+6000,36 months,18.25,NA,RENT,54000,moving,IN,13.16,0,91.2,6,good,13,verified
+8500,36 months,14.33,10,MORTGAGE,62687,debt_consolidation,IN,4.08,0,55.3,19,good,31,verified
+18000,60 months,14.33,3,RENT,60000,debt_consolidation,IN,24.5,0,69.1,19,good,9,verified
+5000,36 months,8.9,1,RENT,20800,other,IN,26.09,0,1.4,24,good,20,not verified
+8000,36 months,11.55,0,MORTGAGE,30000,credit_card,IN,14.36,0,45.3,13,good,9,not verified
+10000,36 months,18.25,10,RENT,31000,debt_consolidation,IN,20.28,0,83.3,23,bad,15,verified
+9500,36 months,12.35,NA,MORTGAGE,27168,debt_consolidation,IN,29.55,0,48.3,13,good,12,verified
+8875,36 months,12.35,1,RENT,26000,debt_consolidation,IN,13.34,0,67.8,9,good,16,not verified
+18000,36 months,14.33,5,MORTGAGE,80000,credit_card,IN,31.8,2,95.8,39,good,14,verified
+13300,60 months,20.8,2,MORTGAGE,100000,credit_card,IN,16.01,0,72.3,35,good,14,verified
+13000,60 months,15.22,10,MORTGAGE,63000,debt_consolidation,IN,16.38,0,79.3,15,good,8,verified
+20000,36 months,12.35,5,MORTGAGE,85000,home_improvement,IN,20.47,2,59.8,40,good,20,verified
+28000,60 months,23.5,9,MORTGAGE,92000,credit_card,IN,17.19,1,83.4,18,good,11,verified
+16100,36 months,18.25,0,MORTGAGE,45000,debt_consolidation,IN,16.14,0,83.6,37,good,16,not verified
+5825,36 months,11.55,0,MORTGAGE,20259.2,debt_consolidation,IN,15.76,0,51,10,bad,9,verified
+17625,60 months,22.7,5,MORTGAGE,80000,debt_consolidation,IN,2.25,0,80.7,7,bad,11,verified
+12000,36 months,14.33,1,RENT,44000,debt_consolidation,IN,12.25,0,64.4,24,good,5,not verified
+30000,60 months,24.89,10,MORTGAGE,71000,home_improvement,IN,20.48,1,83.9,24,bad,20,verified
+8000,36 months,12.35,7,MORTGAGE,33000,debt_consolidation,IN,15.93,0,57.9,31,good,13,verified
+10750,36 months,12.35,2,MORTGAGE,55000,other,IN,22.08,0,39.1,32,good,15,not verified
+3750,36 months,8.9,7,OWN,33000,debt_consolidation,IN,12.65,0,22.1,14,good,10,verified
+24000,36 months,11.55,10,RENT,103000,debt_consolidation,IN,24.76,3,49,41,good,29,verified
+13000,36 months,14.33,10,MORTGAGE,95000,credit_card,IN,10.6,0,34,56,good,11,not verified
+8000,36 months,18.25,10,RENT,37000,other,IN,9.6,0,69.2,8,bad,9,not verified
+6000,36 months,17.56,0,RENT,56000,debt_consolidation,IN,14.85,0,67.4,13,good,6,verified
+11875,36 months,18.25,8,OWN,35000,debt_consolidation,IN,32.61,0,36,10,bad,18,verified
+20000,60 months,12.35,10,MORTGAGE,54000,credit_card,IN,26.4,0,59,39,good,16,verified
+35000,60 months,22.7,10,MORTGAGE,200000,credit_card,IN,8.24,1,41.5,32,good,14,verified
+15000,36 months,11.55,10,MORTGAGE,90000,debt_consolidation,IN,17.63,0,78.5,23,good,19,verified
+18650,60 months,15.88,7,MORTGAGE,52000,debt_consolidation,IN,21.81,0,70.4,26,bad,19,verified
+29100,60 months,16.78,10,MORTGAGE,65000,debt_consolidation,IN,23.69,0,57.2,32,good,14,verified
+15300,60 months,17.56,10,MORTGAGE,56000,debt_consolidation,IN,30.6,0,63.7,22,bad,13,verified
+14400,36 months,10.64,10,MORTGAGE,85000,credit_card,IN,12.9,6,19.7,35,good,17,not verified
+25000,60 months,20.31,10,MORTGAGE,165000,debt_consolidation,IN,17.93,0,92.3,55,bad,25,verified
+10000,36 months,15.22,NA,MORTGAGE,47000,credit_card,IN,8.37,0,91.6,26,good,16,verified
+4450,36 months,17.56,1,OWN,15500,debt_consolidation,IN,20.04,0,88.7,9,bad,7,verified
+17000,36 months,15.22,10,RENT,51000,debt_consolidation,IN,20.42,0,63.5,21,good,12,not verified
+3000,36 months,10.64,NA,OWN,32000,debt_consolidation,IN,7.91,0,51.3,17,good,15,not verified
+17500,60 months,13.68,0,MORTGAGE,62000,credit_card,IN,9.89,0,52.5,32,bad,14,verified
+10500,36 months,20.31,1,RENT,30000,wedding,IN,30.6,1,74.4,19,bad,5,verified
+24175,60 months,25.28,4,MORTGAGE,125000,debt_consolidation,IN,6.97,0,80.6,7,bad,11,verified
+8000,36 months,10.64,1,MORTGAGE,30000,debt_consolidation,IN,11.08,0,33.2,14,good,7,not verified
+30075,36 months,18.25,0,RENT,155000,debt_consolidation,IN,7.43,0,91.2,22,good,12,verified
+10000,36 months,11.55,1,MORTGAGE,90000,debt_consolidation,IN,15.71,0,57.2,44,good,25,verified
+2000,36 months,21.6,2,MORTGAGE,44000,other,IN,29.7,1,95.6,23,good,15,verified
+15000,60 months,13.68,10,OWN,52000,debt_consolidation,IN,9.48,0,69.5,22,good,11,verified
+5000,36 months,14.33,6,OWN,50000,credit_card,IN,21.38,0,85.1,35,good,23,not verified
+24000,60 months,16.78,3,RENT,185000,debt_consolidation,IN,6.84,1,65.5,42,bad,11,verified
+30000,60 months,17.56,10,MORTGAGE,91000,debt_consolidation,IN,16.25,0,48.5,38,good,18,verified
+23275,36 months,10.64,0,RENT,65000,debt_consolidation,IN,15.64,0,45.8,15,good,11,verified
+18000,36 months,13.05,10,MORTGAGE,61000,debt_consolidation,IN,15.9,0,67.9,22,good,21,not verified
+11000,36 months,13.05,10,RENT,40000,credit_card,IN,31.32,0,61.2,18,good,20,verified
+18000,60 months,15.88,3,MORTGAGE,110000,credit_card,IN,25.43,0,89.9,40,good,18,verified
+35000,36 months,19.52,10,MORTGAGE,82000,debt_consolidation,IN,15.23,3,89.1,25,bad,17,verified
+4000,36 months,18.85,10,MORTGAGE,65000,medical,IN,15.34,1,68,31,good,16,verified
+25450,60 months,11.55,10,MORTGAGE,57000,debt_consolidation,IN,24.03,0,28.8,61,good,14,verified
+12000,36 months,13.68,10,MORTGAGE,59000,debt_consolidation,IN,8.99,0,69.8,38,good,20,not verified
+19200,60 months,20.8,10,MORTGAGE,45000,debt_consolidation,IN,3.36,0,57.6,16,bad,10,verified
+16000,60 months,15.88,4,MORTGAGE,55000,debt_consolidation,IN,9.29,0,19.8,9,bad,6,verified
+10000,36 months,13.68,NA,MORTGAGE,60278,debt_consolidation,IN,11.79,0,40.7,44,good,25,verified
+15000,36 months,12.35,1,MORTGAGE,71500,debt_consolidation,IN,15.91,0,68.2,19,good,15,not verified
+10000,36 months,13.05,2,MORTGAGE,70000,credit_card,IN,19.22,1,99.9,19,good,16,verified
+7200,36 months,21.15,2,MORTGAGE,40000,debt_consolidation,IN,19.32,1,75,23,good,15,not verified
+35000,60 months,25.28,3,RENT,105000,debt_consolidation,IN,15.8,0,77.9,18,good,15,verified
+7200,36 months,13.68,9,MORTGAGE,65000,debt_consolidation,IN,15.62,0,37.5,40,good,13,verified
+17650,36 months,9.71,3,MORTGAGE,135000,credit_card,IN,17.15,0,66.3,38,good,16,verified
+10000,36 months,11.55,10,MORTGAGE,41000,debt_consolidation,IN,5.41,0,35.5,19,good,14,not verified
+16800,60 months,15.88,10,MORTGAGE,42000,debt_consolidation,IN,16.83,0,36.4,22,bad,10,verified
+19000,36 months,15.22,10,RENT,98300,debt_consolidation,IN,10.47,0,85.1,43,good,20,not verified
+12000,36 months,8.9,8,MORTGAGE,85000,credit_card,IN,11.76,0,48.3,22,good,14,not verified
+12175,60 months,15.88,10,MORTGAGE,53000,debt_consolidation,IN,24.91,0,80.7,25,good,14,verified
+9600,60 months,16.78,10,MORTGAGE,35000,other,IN,2.57,0,4.1,18,good,14,verified
