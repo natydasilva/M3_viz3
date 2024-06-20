@@ -1,0 +1,92 @@
+---
+title: <span style="color:#88398A"> Certificación en Ciencia de datos </span>
+subtitle: <span style="color:#88398A">Módulo 3 - Más ggplot2`</span>
+author: <span style="color:#88398A"> <font size="6">Natalia da Silva</span></font>
+date: today
+bibliography: bibliophd.bib
+date-format: YYYY[ -Módulo 3]
+format:
+  revealjs: 
+    theme: default
+    slide-number: c/t
+incremental: false
+embed-resources: true
+logo: logo.png
+widescreen: no
+code-line-numbers: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{css echo=FALSE}
+.small-code{
+  font-size: 50%  
+}
+```
+
+```{css echo=FALSE}
+.small-text{
+  font-size: 70%  
+}
+```
+
+```{r, echo=FALSE}
+library(knitr)
+library(kableExtra)
+library(datasauRus)
+library(gridExtra)
+library(patchwork)
+library(raster)
+library(tidyverse)
+library(scales)
+library(plotly)
+library(tsbox)
+library(RColorBrewer)
+```
+---
+
+## <span style="color:#88398A"> Vimos </span>
+
+-  Visualizaciones básicas con `ggplot2`
+
+-  Uso de `scales` para controlar los `aes` del gráfico
+
+-  Fundamentos del uso de color
+
+---
+
+## <span style="color:#88398A"> Recapitulando</span>
+
+**Un  gráfico estadístico es un mapeo de los datos a atributos estéticos (ejem: color, forma, tamaño) de objetos geométricos (ejem: puntos, lineas, barras)**
+
+
+
+---
+
+## <span style="color:#88398A"> Actividad 2</span>
+
+Vemos la solución de la Actividad2
+
+
+---
+
+
+## <span style="color:#88398A"> Ejemplo propina </span>
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExa21ubjIwc3ZpaXo5djF1dGR6eGhqY3BnMzl3eXZkMXpqejV3N2dsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o0vwzuFwCGAFO/giphy.gif)
+---
+
+
+
+## <span style="color:#88398A">Tu turno </span>
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmhhZGtteXExcnh6OTN4NHAxamd3ZXl3eWVqMHU0MTM5cHQ5djI2diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fHlLVZr01n55jXMzQc/giphy.gif)
+---
+
+
+## <span style="color:#88398A">Material del curso</span>
+
+Material del curso está bajo licencia Creative Commons BY-NC-SA 3.0
+
+<img src="cc.png" height="200px" width="400px" />
