@@ -32,6 +32,12 @@ knitr::opts_chunk$set(echo = TRUE)
 }
 ```
 
+```{css echo=FALSE}
+.small-text2{
+  font-size: 50%  
+}
+```
+
 ```{r, echo=FALSE}
 library(knitr)
 library(kableExtra)
@@ -55,6 +61,7 @@ library(RColorBrewer)
 
 -  Fundamentos del uso de color
 
+La presentación está disponible en: https://natydasilva.github.io/M3_viz3/
 ---
 
 
@@ -85,7 +92,7 @@ El sistema de `themes` tiene 4 componentes:
 
 -   Cada elemento se asocia una **función de elementos** que describe las propiedades visuales del elemento. Ejemplo `element_text()` fija el tamaño de la fuente.
 
--   La función `theme()` permite sobrescribr los elementos del `theme` por defecto mediante las funciones de los elementos ejemplo `theme(plot.title = element_text(colour = "red"))
+-   La función `theme()` permite sobrescribr los elementos del `theme` por defecto mediante las funciones de los elementos ejemplo `theme(plot.title = element_text(colour = "red"))`
 
 -   Themas completos como `theme_bw()`, `theme_grey()` fija todos los elementos del tema con valores designados para funcionar armoniosamente.
 </div>
@@ -500,7 +507,8 @@ str(indiana)
 
 
 ### <span style="color:#88398A"> Data</span>
-<div class=small-code>
+
+<div class=small-text2>
 |Variable | Description|
 |-------------------|-----------------|
 |`loan_amnt`        |Monto del préstamo     |
@@ -518,7 +526,6 @@ str(indiana)
 |`bad_loan` | Indica si el crédito no fue pagado|
 |`longest_credit_length` |  Años de la linea de crédito más larga |
 |`verification_status` | Ingreso verificado |
-
 </div>
 ---
 
@@ -669,7 +676,7 @@ Scatterplot matrix es un gráfico básico para datos multivariados
 
 - `ggscatmat` estrictamente usa variables numéricas
 
-- https://ggobi.github.io/ggally/reference/ggpairs.html
+- [https://ggobi.github.io/ggally/reference/ggpairs.html](https://ggobi.github.io/ggally/reference/ggpairs.html)
 ---
 
 ## <span style="color:#88398A">Múltiples dimensiones</span>
@@ -781,7 +788,8 @@ Pueden ser necesarios para:
 
 `plotly`  permite hacer visualizaciones interactivas, realizado por Carson Sievert.
 
-https://plotly-r.com
+[https://plotly-r.com](https://plotly-r.com)
+
 
 - Tiene una función que permite la traducción directa de gáficos estáticos de ggplot2 a interactivos `ggplotly`
 ---
