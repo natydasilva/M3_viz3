@@ -86,7 +86,8 @@ knitr::include_graphics("axis_leg.png")
 ## [`theme`]{style="color:#88398A"}
 
 <div class=small-text>
-El sistema de `themes` tiene 4 componentes:
+
+El sistema de `themes` tiene  componentes que se pueden modificar.
 
 -   **Elementos** de `theme` especifican todo lo que puedo cambiar que no son datos en un gráfico (ej: `plot.title`, `axis.ticks.x`)
 
