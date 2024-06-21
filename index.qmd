@@ -57,21 +57,6 @@ library(RColorBrewer)
 
 ---
 
-## <span style="color:#88398A"> Recapitulando</span>
-
-**Un  gráfico estadístico es un mapeo de los datos a atributos estéticos (ejem: color, forma, tamaño) de objetos geométricos (ejem: puntos, lineas, barras)**
-
-
-VER QUE DECIR
----
-
-## <span style="color:#88398A"> Actividad 2</span>
-
-Vemos la solución de la Actividad2
-
-
----
-
 
 ## [Componentes de ejes y leyendas]{style="color:#88398A"}
 
@@ -159,26 +144,10 @@ ggplot(data = propinas, aes(x = sexo, fill = sexo)) +
 
 ## [Cambiar `theme`]{style="color:#88398A"}
 
-```{r, echo = TRUE, fig.height = 4, fig.width = 4,  warning = FALSE, message=FALSE,fig.align="center", strip.white=TRUE, eval=FALSE }
-ggplot(data = propinas, aes(x = sexo, fill = sexo)) +
-  geom_bar() + labs(x = "Sexo", y = "Cantidad", fill = "Sexo") +
-  theme( axis.title = element_text(size = 20), 
-        axis.text.x = element_text(size =15, color = "grey"), 
-        axis.text.y = element_text(size =15, color = 'grey'))
-
- 
-```
-
----
-
-## [Cambiar `theme`]{style="color:#88398A"}
-
-Diferencia con el anterior?
-
 ```{r, echo = TRUE, fig.height = 4, fig.width = 4,  warning = FALSE, message=FALSE,fig.align="center", strip.white=TRUE }
 ggplot(data = propinas, aes(x = sexo, fill = sexo)) +
   geom_bar() + labs(x = "Sexo", y = "Cantidad", fill = "Sexo") +
-  theme( axis.title.x = element_text(size = 20), 
+  theme( axis.title = element_text(size = 20), 
         axis.text.x = element_text(size =15, color = "grey"), 
         axis.text.y = element_text(size =15, color = 'grey'))
 
@@ -213,42 +182,22 @@ ggplot(data = propinas, aes(x = sexo, fill = sexo)) +
 ```{r, echo = TRUE, fig.height = 4, fig.width = 4,  warning = FALSE, message=FALSE,fig.align="center", strip.white=TRUE }
 ggplot(data = propinas, aes(x = sexo, fill = sexo)) +
   geom_bar() + 
-  labs(x = "Sexo", y = "Cantidad", fill = "Sexo") + theme(legend.position = "top",
+  labs(x = "Sexo", y = "Cantidad", fill = "Sexo") + 
+  theme(legend.position = "top",
         legend.title = element_text(size = 20,color = 'red'), 
         legend.text = element_text(size = 20,color='blue'))
 ```
 
 ---
 
-## [Cambiar `theme`]{style="color:#88398A"}
 
-```{r, echo = TRUE, fig.height = 4, fig.width = 4,  warning = FALSE, message=FALSE,fig.align="center", strip.white=TRUE }
-ggplot(data = propinas, aes(x = sexo, fill = sexo)) +
-  geom_bar() + labs(x = "Sexo", y = "Cantidad", fill = "Sexo")+ 
-  theme(legend.key.size = unit(1, 'cm'), 
-        legend.key.height = unit(2, 'cm'), 
-        legend.key.width = unit(1, 'cm'))
-```
+## [Diagrama elementos `theme`]{style="color:#88398A"}
 
+![](theme.png)
 ---
 
-## [`elements` para los paneles]{style="color:#88398A"}
 
-```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics("panel.png")
-```
-
----
-
-## [`elements` para subplots, facets]{style="color:#88398A"}
-
-```{r, echo=FALSE, out.width="70%"}
-knitr::include_graphics("facet.png")
-```
-
----
-
-## [`theme()`]{style="color:#88398A"}
+## [`theme_bw()`]{style="color:#88398A"}
 
 ```{r, echo=TRUE, fig.height=5, fig.width=6}
 ggplot(data = propinas, aes(x = sexo, fill = sexo)) +
@@ -309,6 +258,7 @@ ggplot(data = propinas, aes(x = sexo, fill = sexo)) +
 
 ## [Transformaciones estadísticas]{style="color:#88398A"}
 
+<div class=small-text>
 -   Transforma los datos, resumiendolos de alguna manera (`stat`)
 
 <!-- -   Una transformación estadística útil es el suavizado que calcula la media suavizada de `y` condicional a x. -->
@@ -322,8 +272,9 @@ Por ejemplo:
 - `geom_bar()` usa `stat_count` cuenta las observaciones en cada categoría
 
 - `geom_histogram()` usa `stat_bin()` que parte el eje x en trozos y cuenta la cantidad de observaciones en cada uno.
+</div>
 
-------------------------------------------------------------------------
+---
 
 ## [Gráficos de caja]{style="color:#88398A"}
 
@@ -363,13 +314,18 @@ pl1 <- ggplot(data =  propinas, aes(x = dia, y = total)) +
 ------------------------------------------------------------------------
 
 ## [Gráficos de caja]{style="color:#88398A"}
-
--   `stat_boxplot()` calcula los 5 resumenes estadisticos y esos datos se usan para dibuar ¿Donde están los datos?
+<div class=small-text>
+-   `stat_boxplot()` calcula los 5 resumenes estadísticos y esos datos se usan para dibuar ¿Donde están los datos?
 
 Miramos los datos que genera el gráfico 
+
+</div>
+
+<div class=small-code>
 ```{r, echo=TRUE}
 layer_data(pl1)
 ```
+</div>
 
 ------------------------------------------------------------------------
 
@@ -441,8 +397,7 @@ pl_bar <- ggplot(data = propinas, aes(x = dia)) +
   labs(x = "Días de la semana", y = "Total de mesas servidas")
 
 ```
-------------------------------------------------------------------------
-
+---
 
 ## [Gráficos de barras]{style="color:#88398A"}
 
@@ -458,7 +413,7 @@ dt
 
 ```
 
-------------------------------------------------------------------------
+---
 
 ## [Gráficos de barras]{style="color:#88398A"}
 
@@ -469,7 +424,7 @@ pl_dt <- ggplot(data = dt, aes(x = dia, y = perc)) +
 layer_data(pl_dt)
 ```
 
-------------------------------------------------------------------------
+---
 
 ## [Gráficos de barras]{style="color:#88398A"}
 Puedo alternativamente hacer la transformación en `y`
@@ -482,10 +437,10 @@ pl_perc<- ggplot(data = propinas, aes(x = dia,
 
 ```
 
-------------------------------------------------------------------------
-
+---
 
 ## [Gráficos de barras]{style="color:#88398A"}
+
 Puedo alternativamente hacer la transformación en `y`
 
 ```{r,echo=TRUE, fig.align="center",fig.width=5,fig.height=5}
@@ -527,6 +482,7 @@ Data available in: [indiana link](https://www.dropbox.com/s/k9q8ee65vnxngzb/indi
   
 
 ### <span style="color:#88398A">Leer los datos </span>
+<div class=small-code>
 ```{r, echo=TRUE}
 
 library(here)
@@ -535,11 +491,16 @@ library(GGally)
 indiana <- read_csv(here('indiana_data.csv'))
 
 str(indiana)
+
+
+
 ```
+</div>
 ---
 
 
 ### <span style="color:#88398A"> Data</span>
+<div class=small-code>
 |Variable | Description|
 |-------------------|-----------------|
 |`loan_amnt`        |Monto del préstamo     |
@@ -558,10 +519,13 @@ str(indiana)
 |`longest_credit_length` |  Años de la linea de crédito más larga |
 |`verification_status` | Ingreso verificado |
 
+</div>
 ---
 
 
 ### <span style="color:#88398A">Mosaic plots</span>
+
+<div class=small-text>
 Mosaic  plots:
 
 - Método gáfico para visualizar datos de dos o más variables cualitativas.
@@ -575,10 +539,13 @@ Mosaic  plots:
 - Las variables categóricas se ponen en orden y luego cada variable se asigna a un eje.
 
 - Se puede interpretar en término de distribución conjunta descompuesta como condicional por marginal.
+</div>
 
 ---
 
-### <span style="color:#88398A">Mosaic plots</span>
+## <span style="color:#88398A">Mosaic plots</span>
+
+<div class=small-code>
 - Usaremos el paquete `ggmosaic` diseñado en el marco de `ggplot2`
 
 - Uno puede crear en el `aes` la formula que determina como se particiona la distribución conjunta.
@@ -590,12 +557,16 @@ Mosaic  plots:
 - El orden en que se ponen las variables es importante.
 
 - https://cran.r-project.org/web/packages/ggmosaic/vignettes/ggmosaic.html
+</div>
 ---
 
 
-### <span style="color:#88398A">Mosaic plots</span>
+## <span style="color:#88398A">Mosaic plots</span>
+
 ¿Qué pueden decirme sobre este gráfico?
-```{r,fig.height=5,fig.width=7}
+
+```{r,fig.height=4,fig.width=6}
+
 library(ggmosaic)
 ggplot(data = indiana) +
   geom_mosaic(aes(x = product(bad_loan, term), fill= bad_loan)) +
@@ -604,7 +575,7 @@ ggplot(data = indiana) +
 
 ---
 
-### <span style="color:#88398A">Mosaic plots</span>
+## <span style="color:#88398A">Mosaic plots</span>
 
 ```{r,fig.height=5,fig.width=7}
 library(ggmosaic)
@@ -615,13 +586,60 @@ ggplot(data = indiana) +
 
 ---
 
-### <span style="color:#88398A">Alluvial plot</span>
-Exploren esto para variables categóricas
 
-https://cran.r-project.org/web/packages/ggalluvial/vignettes/ggalluvial.html
+## <span style="color:#88398A">Alluvial plot</span>
+Para variables categóricas
+
+```{r, echo=FALSE}
+library(ggalluvial)
+
+aux <- indiana |> select(term, home_ownership,bad_loan) |> 
+  group_by_all() |> 
+  count() |> 
+  ungroup() |> 
+ mutate(across(where(is.character), as.factor)) 
+
+ggplot(data=aux,aes(y = n, axis1 = term, axis2 = home_ownership) )+
+  geom_alluvium(aes(fill = bad_loan), width = 1/12) +
+geom_stratum(width = 1/12, fill = "black", color = "grey") + 
+geom_label(stat = "stratum", aes(label = after_stat(stratum))) +
+  scale_x_discrete(limits = c("Term", "Home_ownership"), expand = c(.05, .05)) +
+  scale_fill_brewer(type = "qual", palette = "Dark2") 
+  
+```
 ---
 
-### <span style="color:#88398A">Múltiples dimensiones</span>
+
+
+## <span style="color:#88398A">Alluvial plot</span>
+
+```{r, eval=FALSE, echo=TRUE}
+
+
+aux <- indiana |> select(term, home_ownership,bad_loan) |> 
+  group_by_all() |> 
+  count() |> 
+  ungroup() |> 
+ mutate(across(where(is.character), as.factor)) 
+
+ggplot(data=aux,aes(y = n, axis1 = term, axis2 = home_ownership) )+
+  geom_alluvium(aes(fill = bad_loan), width = 1/12) +
+geom_stratum(width = 1/12, fill = "black", color = "grey") + 
+geom_label(stat = "stratum", aes(label = after_stat(stratum))) +
+  scale_x_discrete(limits = c("Term", "Home_ownership"), expand = c(.05, .05)) +
+  scale_fill_brewer(type = "qual", palette = "Dark2") 
+  
+```
+
+https://cran.r-project.org/web/packages/ggalluvial/vignettes/ggalluvial.html
+
+
+---
+
+
+
+## <span style="color:#88398A">Múltiples dimensiones</span>
+
 Scatterplot matrix es un gráfico básico para datos multivariados.
 
 Ejemplo Lending club
@@ -633,7 +651,8 @@ ggscatmat(indiana, columns = c(1,3,6,9,11,12),alpha = 1/5)
 ---
 
 
-### <span style="color:#88398A">Múltiples dimensiones</span>
+## <span style="color:#88398A">Múltiples dimensiones</span>
+
 Scatterplot matrix, ejemplo de lending club coloreado por  `bad_loan`
 ```{r, fig.height=6,fig.width=6}
 
@@ -643,7 +662,7 @@ ggscatmat(indiana, columns = c(1,3,6,9,11,12),
 
 ---
 
-### <span style="color:#88398A">Múltiples dimensiones</span>
+## <span style="color:#88398A">Múltiples dimensiones</span>
 Scatterplot matrix es un gráfico básico para datos multivariados
 
 - Se puede hacer usando el paquete `GGally`
@@ -653,7 +672,8 @@ Scatterplot matrix es un gráfico básico para datos multivariados
 - https://ggobi.github.io/ggally/reference/ggpairs.html
 ---
 
-### <span style="color:#88398A">Múltiples dimensiones</span>
+## <span style="color:#88398A">Múltiples dimensiones</span>
+
 Para distinto tipo de variables podemos usar la función  `ggpairs()` de `GGally`
 
 ```{r, fig.height=6,fig.width=10, echo=TRUE}
@@ -663,7 +683,7 @@ Para distinto tipo de variables podemos usar la función  `ggpairs()` de `GGally
 ---
 
 
-### <span style="color:#88398A"> Parallel coordinate plot</span>
+## <span style="color:#88398A"> Parallel coordinate plot</span>
 
 - PCP útil para visualizar datos multivariados numéricos.
 -  Permite comparar muchas variables conjuntamente y ver la relación entre ellas, identificar y caracterizar observaciones.
@@ -673,8 +693,11 @@ Para distinto tipo de variables podemos usar la función  `ggpairs()` de `GGally
 - Para visualizarlas juntas necesitamos normalizarlas.
 
 ---
-### <span style="color:#88398A"> Parallel coordinate plot</span>
 
+
+## <span style="color:#88398A"> Parallel coordinate plot</span>
+
+<div class=small-text>
 - Cada variable está representada por un eje separado (línea vertical). Todos los ejes están igualmente espaciados y paralelos entre sí.
 
 - Cada eje puede tener una escala diferente, ya que cada variable trabaja con una unidad de medida diferente, o se pueden normalizar todos los ejes para mantener todas las escalas uniformes.
@@ -685,12 +708,13 @@ Para distinto tipo de variables podemos usar la función  `ggpairs()` de `GGally
 - Las características se pueden ordenar para que no haya demasiadas líneas que se crucen, lo que resulta en un gráfico ilegible.
 
 - Con la visualización interactiva, puede resaltar una o más líneas para centrarse en una parte de la trama que interese.
+</div>
 
 ---
 
 
 
-### <span style="color:#88398A">Example: Parallel cordinate plot</span>
+## <span style="color:#88398A">Example: Parallel cordinate plot</span>
 
 - Una desventaja de los diagramas de coordenadas paralelas es que pueden abarrotarse demasiado y, por lo tanto, ser ilegibles cuando son muy densos en datos.
 
@@ -698,7 +722,8 @@ Para distinto tipo de variables podemos usar la función  `ggpairs()` de `GGally
 resalte una línea o un grupo de líneas y esto le permite aislar secciones de la trama que le interesan mientras filtra el ruido.
 ---
 
-### <span style="color:#88398A">Example: Parallel cordinate plot</span>
+## <span style="color:#88398A">Example: Parallel cordinate plot</span>
+
 ```{r}
 ggparcoord(data = indiana, columns = c(1,3,4,6,9:12), alpha=1/4)
 
@@ -706,32 +731,17 @@ ggparcoord(data = indiana, columns = c(1,3,4,6,9:12), alpha=1/4)
 
 ```
 ---
-### <span style="color:#88398A">Example: Parallel cordinate plot</span>
+
+## <span style="color:#88398A">Example: Parallel cordinate plot</span>
+
 ```{r}
 ggparcoord(data = indiana, columns = c(1,3,4,6,9:12), groupColumn =2,
            alpha = 1/6)
 ```
 ---
-### <span style="color:#88398A">Example: Parallel cordinate plot</span>
-```{r}
-
-ggparcoord( data= indiana, columns = c(1,3,4,6,9:12),
-            groupColumn =2, alpha=1/6)
-```
 
 
-
-### <span style="color:#88398A">Multidimensional scaling</span>
-
-- Multidimensional scaling (MDS) se usa para reducir dimensiones para ver similaridades entre observaciones.
-
-- MDS transforma los datos en un espacio de menores dimensiones, toma un conjunto de similaridades y retorna un conjunto de puntos tal que la distancia entre los puntos es aproximadamente igual a las similaridades en el espacio completo.
-
-
-
----
-
-### <span style="color:#88398A">Herramientas para visualizar datos en altas dimensiones</span>
+## <span style="color:#88398A">Herramientas para visualizar datos en altas dimensiones</span>
 
 - Visualización  interactiva.
 
@@ -754,6 +764,7 @@ ggparcoord( data= indiana, columns = c(1,3,4,6,9:12),
 
 ---
 
+
 ## <span style="color:#88398A">Para que interactivos</span>
 Pueden ser necesarios para:
 
@@ -772,38 +783,30 @@ Pueden ser necesarios para:
 
 https://plotly-r.com
 
-- Tiene una función que permite la traducción directa de gáficos estáticos de ggplot2 a interactivos
-
-```{r, eval=FALSE}
-library(shiny)
-library(tidyverse)
-library(here)
-
-pl1<- propinas %>%
-ggplot(aes(y = total,  x = propina )) +
-      geom_point() + theme(aspect.ratio = 1)
-
-```
+- Tiene una función que permite la traducción directa de gáficos estáticos de ggplot2 a interactivos `ggplotly`
 ---
 
 ## <span style="color:#88398A">Gráficos interactivos con `plotly`</span>
-```{r, echo = FALSE}
-library(shiny)
-library(tidyverse)
-library(here)
-
-pl1<-propinas %>%
+```{r, echo=TRUE, fig.height=4,fig.width=4}
+library(plotly)
+pl1 <- propinas %>%
 ggplot(aes(y = total,  x = propina )) +
-      geom_point() +
-  theme(aspect.ratio = 1)
-pl1
+      geom_point() + theme(aspect.ratio = 1)
+
+ggplotly(pl1)
+
 ```
 ---
 
+
 ## <span style="color:#88398A">`ggplot2`a interactivo con `plotly`</span>
-```{r, fig.width=6, fig.height=6}
-library(plotly)
-ggplotly(pl1)
+```{r, fig.width=4, fig.height=4, echo=TRUE}
+pl2 <- propinas %>%
+ggplot(aes(y = total,  x = dia )) +
+      geom_boxplot() 
+
+
+ggplotly(pl2)
 ```
 ---
 
@@ -817,7 +820,7 @@ ggplotly(pl1)
 
 
 ## <span style="color:#88398A">`ggplot2` y `plotly`</span>
-
+<div class=small-code>
 ```{r, fig.width = 4, fig.height = 4,echo=FALSE}
 library(plotly)
 library(DT)
@@ -827,9 +830,10 @@ hi2 <- highlight(p = ggplotly(pl2), on = "plotly_selected")
 crosstalk::bscols(hi2, DT::datatable(hi))
 
 ```
+</div>
 ---
 
-## <span style="color:#88398A">`ggplot2`a interactivo con `plotly`</span>
+## <span style="color:#88398A">`ggplot2`  interactivo con `plotly`</span>
 
 ```{r, fig.width = 6, fig.height = 6, eval=FALSE}
 library(plotly)
@@ -850,23 +854,14 @@ crosstalk::bscols(hi2, DT::datatable(hi))
 - Más capítulo 17 del libro de plotly
 ---
 
-## <span style="color:#88398A">Visualización interactiva con `shiny`</span>
--  `plotOutput` permite hacer visualización interactiva
-- Hay 4 interactividades básicas que se pueden realizar con el mouse (`click`, `dblClick`, `hover`y `brush`)
-```{r}
-?plotOutput
-```
-- de la misma forma que outputId genera un objeto de tipo `input` el argumento `click`, `dblClick`, `hover` y `brush` generan inputs,
 
-- `plotOutput(outputId = "plot1", click = "click_plot1")` crea `input$clock_plot1` que guarda la info del click
-
----
 
 
 ## <span style="color:#88398A">Visualización interactiva con `shiny`</span>
 
 ```{r, eval=FALSE}
-
+library(shiny)
+library(DT)
 ui <- fluidPage(
   plotOutput("plot1", brush = "plot1_brush"),
    DTOutput("data")
@@ -894,8 +889,11 @@ shinyApp(ui, server)
 
 
 
-## <span style="color:#88398A">Tu turno </span>
-![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmhhZGtteXExcnh6OTN4NHAxamd3ZXl3eWVqMHU0MTM5cHQ5djI2diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fHlLVZr01n55jXMzQc/giphy.gif)
+## <span style="color:#88398A"> Actividad 2</span>
+
+Vemos la solución de la Actividad2
+
+
 ---
 
 
