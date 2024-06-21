@@ -799,7 +799,7 @@ ggplotly(pl1)
 ---
 
 
-## <span style="color:#88398A">`ggplot2`a interactivo con `plotly`</span>
+## <span style="color:#88398A">`ggplot2` interactivo con `plotly`</span>
 ```{r, fig.width=4, fig.height=4, echo=TRUE}
 pl2 <- propinas %>%
 ggplot(aes(y = total,  x = dia )) +
@@ -811,7 +811,7 @@ ggplotly(pl2)
 ---
 
 
-## <span style="color:#88398A">`ggplot2`a interactivo con `plotly`</span>
+## <span style="color:#88398A">`ggplot2` interactivo con `plotly`</span>
 - `ggplotly()` tiene el argumento `tooltip` que por defecto es `"all"`
 
 - Significa que en la etiqueta que se muestra está la información de todos los `aes`
