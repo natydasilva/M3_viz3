@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{css echo=FALSE}
 .small-code{
-  font-size: 50%  
+  font-size: 70%  
 }
 ```
 
@@ -859,6 +859,7 @@ crosstalk::bscols(hi2, DT::datatable(hi))
 
 ## <span style="color:#88398A">Visualización interactiva con `shiny`</span>
 
+<div class=small-code>
 ```{r, eval=FALSE}
 library(shiny)
 library(DT)
@@ -884,6 +885,7 @@ shinyApp(ui, server)
 
 ```
 
+</div>
 ---
 
 
