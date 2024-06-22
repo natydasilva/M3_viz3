@@ -623,6 +623,7 @@ geom_label(stat = "stratum", aes(label = after_stat(stratum))) +
 
 ```{r, eval=FALSE, echo=TRUE}
 
+library(ggalluvial)
 
 aux <- indiana |> select(term, home_ownership,bad_loan) |> 
   group_by_all() |> 
@@ -639,7 +640,7 @@ geom_label(stat = "stratum", aes(label = after_stat(stratum))) +
   
 ```
 
-https://cran.r-project.org/web/packages/ggalluvial/vignettes/ggalluvial.html
+[https://cran.r-project.org/web/packages/ggalluvial/vignettes/ggalluvial.html](https://cran.r-project.org/web/packages/ggalluvial/vignettes/ggalluvial.html)
 
 
 ---
